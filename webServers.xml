@@ -1,0 +1,30 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d3ad91ad-558c-4abf-97e0-bccf64abe759" name="rr2017" url="http://rr2017">
+        <fileTransfer host="rr2017" port="22" rootFolder="/home/parson_chen/rr2017" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="645666c3-62c1-4a2e-9a88-725173848f2e" name="durian" url="http://durian">
+        <fileTransfer host="durian" port="22" rootFolder="/home/parson_chen/durian2" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="304d706b-1310-436b-836f-5c6e7d5546ba" name="payment" url="http://durian">
+        <fileTransfer host="durian" port="22" rootFolder="/home/parson_chen/payment" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
