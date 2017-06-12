@@ -10,7 +10,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="645666c3-62c1-4a2e-9a88-725173848f2e" name="durian" url="http://durian">
-        <fileTransfer host="durian" port="22" rootFolder="/home/parson_chen/durian2" accessType="SFTP">
+        <fileTransfer host="durian" port="22" rootFolder="/home/parson_chen/" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
