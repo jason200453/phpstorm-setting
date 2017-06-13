@@ -25,6 +25,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="a3725937-d005-43eb-a4af-198b8ac9b371" name="race" url="http://192.168.30.20">
+        <fileTransfer host="192.168.30.20" port="22" rootFolder="/home/parson_chen/race" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
