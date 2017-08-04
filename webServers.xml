@@ -33,6 +33,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="54f402e9-ab9a-4eef-b426-ed979005b092" name="rr2017_dev" url="http://rr2017">
+        <fileTransfer host="rr2017" port="22" rootFolder="/var/www/rr2017" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
